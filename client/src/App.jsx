@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Header from '../src/assets/header.svg'
 function App() {
   return (
     <div>
-      <h1 className='text-red-600 text-center text-3xl'>Hello World</h1>
+
     </div>
   )
 }
