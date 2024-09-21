@@ -1,19 +1,22 @@
 import React from 'react';
-import logoImage from '../assets/logos.png';
+import './Navbar.css'; 
 
-function Navbar1() {
+const Navbar = () => {
   return (
-    <div className="navbar flex">
-      <div className="logoNav">
-        <img src={logoImage} alt="Logo" />
+    <nav className="navbar">
+      <div className="logo">   
+
+        <img src="/madad-logo.jpg" />
+        <span className="madad">Madad</span>
+        
       </div>
-      <ul className="nav-links flex">
+      <ul className="nav-links">
         <li><a href="#">Post Your Complaint</a></li>
         <li><a href="#">Query Status</a></li>
         <li><a href="#">How We Help?</a></li>
       </ul>
-    </div>
+    </nav>
   );
-}
+};
 
-export default Navbar1;
+export default Navbar;

@@ -1,13 +1,13 @@
 /* Container for the header */
 header {
     background-color: #0A2640;
-    width: 100vw;
     height: 40rem;
     padding: 50px;
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    overflow: hidden;
 }
 
 /* Circle Image */
