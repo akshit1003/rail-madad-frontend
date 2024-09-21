@@ -22,7 +22,7 @@ const Help = () => {
             </div>
 
 
-            <div className="chatbot mx-auto flex justify-center items-center relative left-[10rem]">
+            <div className="chatbot mx-auto flex justify-center items-center">
                 <div className="chatbot-content">
                     <h2 className='text-xl font-semibold'>Our chatbot provides instant, 24/7 support.It aims to improve your experience with Indian Railways' customer service.</h2>
                     <div className="box">
@@ -31,7 +31,7 @@ const Help = () => {
                         <div className="box-mark"><img src="src/assets/Vector2.png"></img> Answering frequently asked questions about railway services.</div>
                     </div>
                 </div>
-                <div className="chatbot-image mx-auto">
+                <div className="chatbot-image mx-auto w-fit">
                     <img src="src/assets/chatbot.png" alt="Chatbot Image" className="chatbot-image" />
                 </div>
             </div>
