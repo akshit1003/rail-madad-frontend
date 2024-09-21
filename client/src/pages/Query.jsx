@@ -1,8 +1,9 @@
 import React from 'react'
+import Querystatus from '../components/querystatus'
 
 function query() {
   return (
-    <div>query status page</div>
+    <Querystatus/>
   )
 }
 
