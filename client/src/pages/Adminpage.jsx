@@ -58,7 +58,7 @@ const Adminpage = () => {
     // if (error) return <div className="text-center text-red-500">Error: {error.message}</div>;
 
     return (
-        <div className="container mx-auto py-8">
+        <div className="container mx-auto py-8 min-h-[70vh]">
             <h1 className="text-2xl font-bold text-center mb-6">Admin Query Management</h1>
             <table className="min-w-full table-auto border-collapse border border-gray-400">
                 <thead>

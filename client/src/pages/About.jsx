@@ -9,9 +9,8 @@ import Adminpage from './Adminpage'
 function About() {
   return (
     <>
-      {/* <Help />
-      <Stats /> */}
-      <Adminpage />
+      <Help />
+      <Stats />
     </>
 
   )
