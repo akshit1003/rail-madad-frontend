@@ -12,7 +12,7 @@ const Navbar = () => {
       </div>
       <ul className="nav-links">
         <li><Link to="/complain">Post Your Complaint</Link></li>
-        <li><Link to="/query-status">Query Status</Link></li>
+        <li><Link to="/query">Query Status</Link></li>
         <li><Link to="/about">How We Help?</Link></li>
       </ul>
     </nav>
