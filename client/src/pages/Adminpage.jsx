@@ -35,6 +35,14 @@ const Adminpage = () => {
                     "queryGenerated": "Ticket not confirmed",
                     "subject": null,
                     "status": "Pending"
+                },
+                {
+                    "id": 2,
+                    "pnr": "XYZ789",
+                    "image": "src/assets/img-1.png",
+                    "queryGenerated": "Ticket not confirmed",
+                    "subject": null,
+                    "status": "Pending"
                 }
             ]
         )
