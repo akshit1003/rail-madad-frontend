@@ -91,3 +91,14 @@
     position: relative ;
     bottom: 10px;
   }
+  
+  .card3:hover{
+    transform: scale(1.02);
+  }
+  .card3{
+    display: flex;
+    flex-direction: column;
+      margin: 5%;
+      align-items: center;
+      justify-content: center;
+  }
