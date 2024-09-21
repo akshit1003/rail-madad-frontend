@@ -48,7 +48,7 @@ function ComplaintForm() {
 
     <div className="complaint-container">
       <div className="complaint-form">
-        <h1 className='complaint-heading text-[#fdefe4]'>RAISE A COMPLAINT</h1>
+        <h1 className='complaint-heading text-[#0A2640]'>Raise a complaint</h1>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="pnr">Enter your PNR</label>
