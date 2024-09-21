@@ -1,46 +1,51 @@
-.madad-header {
-  background-color: #f3f4f6;
-  padding: 1.5rem;
+.madad-railmadad {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.logo-container {
-  display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-items:center ;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f2f2f2;
 }
 
-.logo-icon {
-  color: #f97316;
-  margin-right: 0.5rem;
-}
-
-.logo-text {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #1f2937;
-}
-
-.menu-container {
+.logo1{
   display: flex;
-  gap: 3rem;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.logo1 img{
+  width:30px;
+}
+.madad-text{
+  font-weight: 500;
+  font-size: 3rem;
 }
 
-.menu-column h2 {
-  font-weight: 600;
-  color: #4b5563;
-  margin-bottom: 0.5rem;
+.madad{
+  display: flex;
+  flex-direction: column;
+}
+.resources{
+  display: flex;
+  flex-direction: column;
+  padding-right: 10rem;
 }
 
-.menu-column ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+.platform {
+  margin: 1rem;
+  font-size: 14px;
+  color: #666;
+  max-width: 400px;
 }
 
-.menu-column li {
-  font-size: 0.875rem;
-  color: #6b7280;
-  margin-bottom: 0.25rem;
+
+.links{
+  list-style: none;
+  
+}
+.links a{
+  text-decoration: none;
+  color: #666;
+
 }

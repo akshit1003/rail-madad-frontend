@@ -5,23 +5,25 @@ import Complain from './pages/Complain';
 import Navbar from './components/Navbar';
 import LandingPage from './pages/Landing';
 import Query from './pages/Query';
+import Footer from './components/Footer';
 // import Footer from './components/Footer';
 
 function App() {
- return (
- <Router>
- <div className="App">
- <Navbar />
- <Routes>
- <Route path="/" element={<LandingPage />} />
- <Route path="/query-status" element={<Query />} />  
- <Route path="/complain" element={<Complain />} />   
- <Route path="/about" element={<About />} />
- </Routes>
- {/* <Footer /> */}
- </div>
- </Router>
- );
+    return (
+        <Router>
+            <div className="App">
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<LandingPage />} />
+                    <Route path="/query-status" element={<Query />} />
+                    <Route path="/complain" element={<Complain />} />
+                    <Route path="/about" element={<About />} />
+                </Routes>
+                {/* <Footer /> */}
+            </div>
+            <Footer />
+        </Router>
+    );
 }
 
 export default App;

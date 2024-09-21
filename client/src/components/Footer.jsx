@@ -1,31 +1,36 @@
 import React from 'react';
-// import logo from '../assets/logos.png';
 import './Footer.css';
 
-const Footer = () => {
+function Footer() {
   return (
-    <header className="madad-header">
-      <div className="logo-container">
-        <h1 className="logo-text">Madad</h1>
-      </div>
-      <div className="menu-container">
-        <div className="menu-column">
-          <h2>RailMadad</h2>
-          <ul>
-            <li>Home</li>
-            <li>About us</li>
-          </ul>
+    <div className="madad-railmadad border-t-stone-200 border-t-2">
+      <div className="logo1">
+        <div className='flex items-center gap-4 ml-4'>
+          <img src="src/assets/madad-logo.jpg" />
+          <span className="madad-text">Madad</span>
         </div>
-        <div className="menu-column">
-          <h2>Resources</h2>
-          <ul>
-            <li>Add complaint</li>
-            <li>Know your query status</li>
-          </ul>
+        <div className="platform">An online platform that allows railway passengers in India to register their complaints and seek assistance related to various railway services.</div>
+      </div>
+      <div className="madad">
+        <div>
+          <h3 className='font-bold'>RailMadad</h3>
+        </div>
+        <div class="links">
+          <div><a href="#">Home</a></div>
+          <div><a href="#">Services</a></div>
         </div>
       </div>
-    </header>
+      <div className="resources">
+        <div>
+          <h3 className='font-bold'>Resources</h3>
+        </div>
+        <div class="links">
+          <div><a href="#">Add complaint</a></div>
+          <div><a href="#">Know your query status</a></div>
+        </div>
+      </div>
+    </div>
   );
-};
+}
 
 export default Footer;

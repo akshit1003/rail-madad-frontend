@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Form.css';
 import complaintImage from '../assets/complaint-image.png';
+import train from '../assets/train.jpg';
 
 function ComplaintForm() {
   const [pnr, setPnr] = useState('');
@@ -44,9 +45,10 @@ function ComplaintForm() {
   };
 
   return (
+
     <div className="complaint-container">
       <div className="complaint-form">
-        <h1 className='complaint-heading'>Raise a complaint</h1>
+        <h1 className='complaint-heading text-[#fdefe4]'>RAISE A COMPLAINT</h1>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="pnr">Enter your PNR</label>
@@ -89,7 +91,9 @@ function ComplaintForm() {
             {errors.media && <span className="error red-text">{errors.media}</span>}
           </div>
 
-          <button type="submit" className='submit-button'>Submit Complaint</button>
+          <div className='flex justify-center'>
+            <button type="submit" className='submit-button'>Submit Complaint</button>
+          </div>
         </form>
       </div>
 
@@ -97,6 +101,7 @@ function ComplaintForm() {
         <img src={complaintImage} alt="Complaint" />
       </div>
     </div>
+
   );
 }
 
