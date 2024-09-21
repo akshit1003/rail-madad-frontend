@@ -11,7 +11,7 @@ function Button({ text, color }) {
         color: color === '#1169fe' ? '#ffffff' : '#0a2640',
         fontWeight: 700,
         fontSize: '20px',
-        border: color === '#1169fe' ? '2px solid #ffffff' : '2px solid #69e6a6'
+        // border: color === '#1169fe' ? '2px solid #ffffff' : '2px solid #69e6a6'
     };
 
     return (

@@ -1,19 +1,18 @@
 import React from 'react';
-// import logoImage from '../assets/..logos.png';
-
+import logoImage from '../assets/logos.png';
 
 function Navbar1() {
   return (
-    <nav className="navbar">
-      <div className="logo">
-        {/* <img src={logoImage} alt="Logo" /> */}
+    <div className="navbar flex">
+      <div className="logoNav">
+        <img src={logoImage} alt="Logo" />
       </div>
-      <ul className="nav-links">
+      <ul className="nav-links flex">
         <li><a href="#">Post Your Complaint</a></li>
         <li><a href="#">Query Status</a></li>
         <li><a href="#">How We Help?</a></li>
       </ul>
-    </nav>
+    </div>
   );
 }
 

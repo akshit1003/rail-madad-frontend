@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  flex-direction: row;
+}
+
+.logoImage {
+  padding: 20px;
+}
+
+.nav-links {
+  flex: 1 0 auto; /* Allow the navigation links to expand to fill the remaining space */
+  display: flex; /* Ensure the navigation links are displayed as a flex container */
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
