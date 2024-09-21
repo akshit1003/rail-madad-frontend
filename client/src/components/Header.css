@@ -21,8 +21,9 @@ header img.circle {
 
 /* Person Image */
 header img.person {
-    height: 40rem;
-    width: 40rem;
+    margin-top: 5rem;
+    height: 30rem;
+    width: 30rem;
     position: absolute;
     right: 100px;
     top: -80px;

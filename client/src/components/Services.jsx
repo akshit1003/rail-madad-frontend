@@ -10,8 +10,8 @@ function OurServices() {
       <p className='service-heading2'>We help you with all your issues</p>
       <div className="service-cards">
         {/* card1 */}
-        <div className='card1'>
-      <div className="complaint-image">
+        <div className='card1 one'>
+      <div className="complaint-image5">
         <img src={imagea} alt="Complaint" />
       </div>
       <div className='head-1'>Feedback</div>
@@ -20,7 +20,7 @@ function OurServices() {
       </div>
       {/* card1 */}
       <div className='card1'>
-      <div className="complaint-image">
+      <div className="complaint-image5">
         <img src={imageb} alt="Complaint" />
       </div>
       <div className='head-1'>Know your query status</div>
@@ -29,7 +29,7 @@ function OurServices() {
       </div>
       {/* card2 */}
       <div className='card1'>
-      <div className="complaint-image">
+      <div className="complaint-image5">
         <img src={imagec} alt="Complaint" />
       </div>
       <div className='head-1'>Customer support</div>

@@ -1,9 +1,11 @@
 import React from 'react'
-
+import Form from '../components/Form';
 function Complain() {
   return (
-    <div>Complain</div>
+    <div>
+        <Form/>
+    </div>
   )
 }
 
-export default Complain
+export default Complain;

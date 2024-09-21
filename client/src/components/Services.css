@@ -36,7 +36,11 @@
   .card1{
     display: flex;
     flex-direction: column;
+      margin: 5%;
+      align-items: center;
+      justify-content: center;
   }
+ 
   .service-cards{
     justify-content: center;
     display: flex;
@@ -62,9 +66,7 @@
     font-weight: bolder;
     margin: 8% 0 5% 0;
   }
-  .card1{
-    margin: 5%;
-  }
+
   .our-services{
     justify-content: center;
     align-items: center;
@@ -76,4 +78,16 @@
   .explore:hover{
     transform: scale(1.03);
     cursor: pointer;
+  }
+  .card1:hover{
+    transform: scale(1.02);
+  }
+  .complaint-image5{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+  .one{
+    position: relative ;
+    bottom: 10px;
   }

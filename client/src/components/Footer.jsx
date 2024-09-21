@@ -1,33 +1,31 @@
 import React from 'react';
-import './Footer.css';  // Assuming you have this CSS file for custom styles
-// import LogoShape from './assets/logo-shape-4.svg';
+// import logo from '../assets/logos.png';
+import './Footer.css';
 
-function Footer() {
-    return (
-        <footer>
-            <div className="footer-content">
-                <div className="logo">
-                    {/* <img src={LogoShape} alt="Logo" /> */}
-                    <h1>Madad</h1>
-                </div>
-                <p>An online platform that allows railway passengers in India to register their complaints and seek assistance related to various railway services.</p>
-                <div className="footer-column">
-                    <h4>RailMadad</h4>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                    </ul>
-                </div>
-                <div className="footer-column">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="#">Add complaint</a></li>
-                        <li><a href="#">Know your query status</a></li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-    );
-}
+const Footer = () => {
+  return (
+    <header className="madad-header">
+      <div className="logo-container">
+        <h1 className="logo-text">Madad</h1>
+      </div>
+      <div className="menu-container">
+        <div className="menu-column">
+          <h2>RailMadad</h2>
+          <ul>
+            <li>Home</li>
+            <li>About us</li>
+          </ul>
+        </div>
+        <div className="menu-column">
+          <h2>Resources</h2>
+          <ul>
+            <li>Add complaint</li>
+            <li>Know your query status</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  );
+};
 
 export default Footer;
