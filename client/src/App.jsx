@@ -4,8 +4,9 @@ import About from './pages/About';
 import Complain from './pages/Complain';
 import Navbar from './components/Navbar';
 import LandingPage from './pages/Landing';
+import Feedback from './pages/Feedback';
 import Query from './pages/Query';
-import Footer from './components/Footer';
+
 // import Footer from './components/Footer';
 
 function App() {
@@ -15,13 +16,13 @@ function App() {
                 <Navbar />
                 <Routes>
                     <Route path="/" element={<LandingPage />} />
-                    <Route path="/query-status" element={<Query />} />
+                    <Route path="/query" element={<Query />} />
                     <Route path="/complain" element={<Complain />} />
                     <Route path="/about" element={<About />} />
+                    <Route path="/Feedback" element={<Feedback />} />
                 </Routes>
                 {/* <Footer /> */}
             </div>
-            <Footer />
         </Router>
     );
 }
